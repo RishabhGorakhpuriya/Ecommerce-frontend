@@ -7,7 +7,6 @@ import {
 } from './counterSlice';
 
 export function Counter() {
-  const count = useSelector(selectCount);
   const dispatch = useDispatch();
 
 
